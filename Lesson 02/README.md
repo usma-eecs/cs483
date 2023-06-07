@@ -1,4 +1,4 @@
-# Lesson 1 - Introduction to Digital Forensics
+# Lesson 2 - Forensic Examinations and Digital Investigations
 
 
 ## Table of Contents
