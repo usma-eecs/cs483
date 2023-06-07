@@ -48,11 +48,11 @@ In this lesson, students will learn about file system architectures, disk archit
    - NTFS Volume Boot Records (VBR) and Master File Table (MFT)
  
  5. File Layer (Data)
-   - File system structure
-   - FAT and FAT32
-   - NTFS
-   - extX4
-   - inode
+    - File system structure
+    - FAT and FAT32
+    - NTFS
+    - extX4
+    - inode
 
 6. Application Layer
    - Slack space
