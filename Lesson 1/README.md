@@ -41,11 +41,11 @@ In this lesson, students will review course admin, course logistics, and discuss
 
 ## Lesson Content
 
-You can find the lesson content in the [Lesson 1 - Introduction](Lesson 1 - Introduction.pptx) file.
+You can find the lesson content in the [Lesson 1 - Introduction](Lesson 1/Lesson 1 - Introduction.pptx) file.
 
 ## For Next Lesson
 
-For the next lesson, read [Brian Carrier's paper](Carrier - Open Source Forensics.pdf) and be prepared to discuss.
+For the next lesson, read [Brian Carrier's paper](Lesson 1/Carrier - Open Source Forensics.pdf) and be prepared to discuss.
 
 
 ## Additional Resources
