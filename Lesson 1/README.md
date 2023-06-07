@@ -45,7 +45,7 @@ You can find the lesson content in the [Lesson 1 - Introduction](Lesson 1/Lesson
 
 ## For Next Lesson
 
-For the next lesson, read [Brian Carrier's paper](Lesson 1/Carrier - Open Source Forensics.pdf) and be prepared to discuss.
+For the next lesson, read [Brian Carrier's paper](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Lesson%201%20-%20Introduction.pptx) and be prepared to discuss.
 
 
 ## Additional Resources
