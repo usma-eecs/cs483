@@ -25,7 +25,6 @@ In this lesson, students will learn about file system architectures, disk archit
 ## Lesson Topics
 
 1. Storage Hierarchy Overview
-   - Course learning objectives.
    ![image](https://github.com/usma-eecs/cs483/assets/38296058/d16b177d-76c5-42ff-b63f-24a6f1fe9cc5)
    
 2. Foundational Forensics Concepts
