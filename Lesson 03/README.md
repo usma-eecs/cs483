@@ -1,4 +1,4 @@
-# Lesson 1 - Introduction to Digital Forensics
+# Lesson 3 - File System Forensics I
 
 
 ## Table of Contents
@@ -11,26 +11,23 @@
 
 ## Lesson Overview
 
-In this lesson, students will review course admin, course logistics, and discuss basic forensics concepts.
+In this lesson, students will learn about file system architectures, disk architecture, and file storage.
 
 ## Learning Objectives
 
-- Define digital forensics.
-- Discuss the role of digital forensics in expert witness testimony.
-- Explain the Daubert Standard.
-- Explain Locard Exchange Principle.
-- Discuss the observer effect.
+- Discuss the storage hierachy at various layers of abstraction.
+- Define common file system terms such as sectors, partitions, volumes, blocks, clusters, file system, and file attributes.
 
 ## Prerequisites
 
-- None
+- read Chapter's 1-3 of *File System Forensic Analysis*.
 
 ## Lesson Topics
 
-1. Course Administration and Logistics
+1. Storage Hierarchy Overview
    - Course learning objectives.
-   - Instructor and student introductions.
-
+   ![image](https://github.com/usma-eecs/cs483/assets/38296058/d16b177d-76c5-42ff-b63f-24a6f1fe9cc5)
+   
 2. Foundational Forensics Concepts
    - Digital Forensics Defined
    - Expert Witness Testimony
