@@ -25,29 +25,55 @@ In this lesson, students will learn about file system architectures, disk archit
 ## Lesson Topics
 
 1. Storage Hierarchy Overview
-   ![image](https://github.com/usma-eecs/cs483/assets/38296058/d16b177d-76c5-42ff-b63f-24a6f1fe9cc5)
+   - File storage can be discussed at various levels of abstraction. This lesson will work from the bottom (physical) to the top (application layer).
    
-2. Foundational Forensics Concepts
-   - Digital Forensics Defined
-   - Expert Witness Testimony
-   - The Daubert Standard
-   - The Daubert Factors
-   - Locard Exchange Principle
-   - The Observer Effect
+2. Disk Architecture
+   - Sectors, tracks, cylinders
+   - Solid state drives (SSD)
+
+3. Partitions and File Systems
+   - Partitions, volumes
+   - partition types, partition tables
+   - Master Boot Record (MBR) and boot process (Linux)
+   - GUID Partition Table
+   - File systems defined and file system data categories
+  
+4. Space Management
+   - Data units
+   - Allocation and space management
+   - Cluster sizes
+   - Free space
+   - Logical file addresses
+   - Slack space
+   - NTFS Volume Boot Records (VBR) and Master File Table (MFT)
+ 
+ 5. File Layer (Data)
+   - File system structure
+   - FAT and FAT32
+   - NTFS
+   - extX4
+   - inode
+
+6. Application Layer
+   - Slack space
+   - unallocated space
+   - File attributes
+   - `file` command
+
 
 ## Lesson Content
 
-You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Lesson%201%20-%20Introduction.pptx) for this lesson.
+You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%2003/Lesson%203%20-%20File%20System%20Forensics%20I.pptx) for this lesson.
 
 ## For Next Lesson
 
-For the next lesson, read [Brian Carrier's paper](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Carrier%20-%20Open%20Source%20Forensics.pdf) and be prepared to discuss.
+Read Chapters 4, 8, and 11 of *File System Forensic Analysis*.
 
 
 ## Additional Resources
 
-- [Daubert v. Merrell Dow Pharmaceuticals Inc., 509 U.S. 579 (1993)](https://supreme.justia.com/cases/federal/us/509/579/)
-- [Frye Standard](https://www.law.cornell.edu/wex/Frye_standard)
-- [Daubert Standard](https://www.law.cornell.edu/wex/daubert_standard#:~:text=The%20Daubert%20standard%20is%20the,to%20the%20facts%20at%20issue.)
+- [Master Boot Record (MBR)](http://www.invoke-ir.com/search/label/Master%20Boot%20Record)
+- [GUID Partition Table](http://www.invoke-ir.com/search/label/Guid%20Partition%20Table)
+- [Windows File Systems](https://learn.microsoft.com/en-us/windows/win32/FileIO/file-systems)
 
 Students are encouraged to explore these resources for further learning.
