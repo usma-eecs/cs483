@@ -1,4 +1,4 @@
-# Lesson 1 - Introduction to Digital Forensics
+# Lesson 4 - File System Forensics II
 
 
 ## Table of Contents
@@ -11,47 +11,59 @@
 
 ## Lesson Overview
 
-In this lesson, students will review course admin, course logistics, and discuss basic forensics concepts.
+In this lesson, students will investigate Windows NTFS artifacts that can be used as evidence of program execution.
 
 ## Learning Objectives
 
-- Define digital forensics.
-- Discuss the role of digital forensics in expert witness testimony.
-- Explain the Daubert Standard.
-- Explain Locard Exchange Principle.
-- Discuss the observer effect.
+- Identify evidence of program execution.
+- Analyze various Windows artifacts for forensic value.
 
 ## Prerequisites
 
-- None
+- Chapters 4, 8, and 11 of *File System Forensic Analysis*.
 
 ## Lesson Topics
 
-1. Course Administration and Logistics
-   - Course learning objectives.
-   - Instructor and student introductions.
+1. Review Questions
+   - What is a partition?
+   - What is the MBR, and what valuable forensic information can be parsed from the MBR?
+   - What is slack space?
+   - What is the MFT?
 
-2. Foundational Forensics Concepts
-   - Digital Forensics Defined
-   - Expert Witness Testimony
-   - The Daubert Standard
-   - The Daubert Factors
-   - Locard Exchange Principle
-   - The Observer Effect
+2. Evidence of Execution Overview
+   - Discuss snenarios where you may need to prove something executed on a machine.
+
+3. Windows Prefetch
+   - Cache of recent process information.
+   - `C:\Windows\Prefetch`
+   - `PECmd.exe`
+
+4. Windows Registry Overview
+   - Database hive that stores settings for the Windows OS and applications
+   - Registry Explorer
+
+5. ShimCache
+   - Microsoft Application Compatibility Cache
+   - `SYSTEM\ControlSet001\Control\SessionManager\AppCompatCache`
+   - `AppCompatCacheParser`
+
+6. Amcache
+   - `Amcache.hve` tracks installed applications and loaded drivers
+   - `SYSTEM\ControlSet001\Control\SessionManager\AppCompatCache`
+
 
 ## Lesson Content
 
-You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Lesson%201%20-%20Introduction.pptx) for this lesson.
+You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%2004/Lesson%204%20-%20File%20System%20Forensics%20II.pptx) for this lesson.
 
 ## For Next Lesson
 
-For the next lesson, read [Brian Carrier's paper](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Carrier%20-%20Open%20Source%20Forensics.pdf) and be prepared to discuss.
+Work on File System Forensics Exercise.
 
 
 ## Additional Resources
 
-- [Daubert v. Merrell Dow Pharmaceuticals Inc., 509 U.S. 579 (1993)](https://supreme.justia.com/cases/federal/us/509/579/)
-- [Frye Standard](https://www.law.cornell.edu/wex/Frye_standard)
-- [Daubert Standard](https://www.law.cornell.edu/wex/daubert_standard#:~:text=The%20Daubert%20standard%20is%20the,to%20the%20facts%20at%20issue.)
+- [Eric Zimmerman's Tools](https://ericzimmerman.github.io/#!index.md)
+- [Amcache and ShimCache Forensic Analysis](https://andreafortuna.org/2017/10/16/amcache-and-shimcache-in-forensic-analysis/)
 
 Students are encouraged to explore these resources for further learning.
