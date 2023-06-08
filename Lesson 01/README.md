@@ -41,11 +41,11 @@ In this lesson, students will review course admin, course logistics, and discuss
 
 ## Lesson Content
 
-You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Lesson%201%20-%20Introduction.pptx) for this lesson.
+You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%2001/Lesson%201%20-%20Introduction.pptx) for this lesson.
 
 ## For Next Lesson
 
-For the next lesson, read [Brian Carrier's paper](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Carrier%20-%20Open%20Source%20Forensics.pdf) and be prepared to discuss.
+For the next lesson, read [Brian Carrier's paper](https://github.com/usma-eecs/cs483/blob/main/Lesson%2001/Carrier%20-%20Open%20Source%20Forensics.pdf) and be prepared to discuss.
 
 
 ## Additional Resources
