@@ -12,6 +12,7 @@ Course Director: Jon Fuller
 
 Lab: TH212 (Cyber Lab)
 
+
 Course Overview:
 - Forensics Concepts: Lessons 1 - 2
 - File Systems Forensics: Lessons 3 - 5
