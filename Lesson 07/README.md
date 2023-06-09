@@ -33,7 +33,7 @@ In this lesson, students will write basic programs using the Win32 API to learn 
    - Processes are managed as a doubly-linked list.
    - Use `CreateToolhelp32Snapshot` and `Process32First` and `Process32Next` to walk the list.
 
-3. Enumerte System Information
+3. Enumerate System Information
    - `USER_SHARED_DATA` for OS version info
    - `GetNativeSystemInfo`
    - `GetWindowsDirectory`
