@@ -1,4 +1,4 @@
-# Lesson 1 - Introduction to Digital Forensics
+# Lesson 5 - File System Forensics III
 
 
 ## Table of Contents
@@ -11,47 +11,37 @@
 
 ## Lesson Overview
 
-In this lesson, students will review course admin, course logistics, and discuss basic forensics concepts.
+In this lesson, students will learn how to mount a file system and collect evidence from a file system.
 
 ## Learning Objectives
 
-- Define digital forensics.
-- Discuss the role of digital forensics in expert witness testimony.
-- Explain the Daubert Standard.
-- Explain Locard Exchange Principle.
-- Discuss the observer effect.
+- Extract information from an MBR.
+- Examine partition tables.
+- Collect volume information.
+- Mount a file system.
+- Navigate a mounted file system.
+- Find evidence of program execution.
+- Find deleted files from an NTFS file system.
 
 ## Prerequisites
 
-- None
+- Review material from previous lessons.
 
 ## Lesson Topics
 
-1. Course Administration and Logistics
-   - Course learning objectives.
-   - Instructor and student introductions.
-
-2. Foundational Forensics Concepts
-   - Digital Forensics Defined
-   - Expert Witness Testimony
-   - The Daubert Standard
-   - The Daubert Factors
-   - Locard Exchange Principle
-   - The Observer Effect
+1. Conduct the hands-on file system forensics [exercise](https://github.com/usma-eecs/cs483/blob/main/Lesson%2005/File%20System%20Exercise.docx).
 
 ## Lesson Content
 
-You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Lesson%201%20-%20Introduction.pptx) for this lesson.
+You can find the lesson content in the [exercise document](https://github.com/usma-eecs/cs483/blob/main/Lesson%2005/File%20System%20Exercise.docx) for this lesson.
 
 ## For Next Lesson
 
-For the next lesson, read [Brian Carrier's paper](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Carrier%20-%20Open%20Source%20Forensics.pdf) and be prepared to discuss.
+Complete the exercise.
 
 
 ## Additional Resources
 
-- [Daubert v. Merrell Dow Pharmaceuticals Inc., 509 U.S. 579 (1993)](https://supreme.justia.com/cases/federal/us/509/579/)
-- [Frye Standard](https://www.law.cornell.edu/wex/Frye_standard)
-- [Daubert Standard](https://www.law.cornell.edu/wex/daubert_standard#:~:text=The%20Daubert%20standard%20is%20the,to%20the%20facts%20at%20issue.)
+- [The Sleuth Kit File System Analysis](https://wiki.sleuthkit.org/index.php?title=FS_Analysis)
 
 Students are encouraged to explore these resources for further learning.
