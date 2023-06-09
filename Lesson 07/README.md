@@ -1,4 +1,4 @@
-# Lesson 1 - Introduction to Digital Forensics
+# Lesson 7 - Windows Internals II
 
 
 ## Table of Contents
@@ -11,47 +11,48 @@
 
 ## Lesson Overview
 
-In this lesson, students will review course admin, course logistics, and discuss basic forensics concepts.
+In this lesson, students will write basic programs using the Win32 API to learn more about Windows internals.
 
 ## Learning Objectives
 
-- Define digital forensics.
-- Discuss the role of digital forensics in expert witness testimony.
-- Explain the Daubert Standard.
-- Explain Locard Exchange Principle.
-- Discuss the observer effect.
+- Research Win32 API Documentation
+- Design, compile, execute, and troubleshoot simple Windows programs
+- Explore Windows processes using Process Hacker
 
 ## Prerequisites
 
-- None
+- Review previous lesson's content
 
 ## Lesson Topics
 
-1. Course Administration and Logistics
-   - Course learning objectives.
-   - Instructor and student introductions.
+1. Using Visual Studios
+   - Simple Hello World Program
+   - `MessageBoxW`
 
-2. Foundational Forensics Concepts
-   - Digital Forensics Defined
-   - Expert Witness Testimony
-   - The Daubert Standard
-   - The Daubert Factors
-   - Locard Exchange Principle
-   - The Observer Effect
+2. Traversing Processes
+   - Processes are managed as a doubly-linked list.
+   - Use `CreateToolhelp32Snapshot` and `Process32First` and `Process32Next` to walk the list.
+
+3. Enumerte System Information
+   - `USER_SHARED_DATA` for OS version info
+   - `GetNativeSystemInfo`
+   - `GetWindowsDirectory`
+
+4. Process Hacker
+   - Use Process Hacker to explore your newly created processes.
+   - Compare 32-bit and 64-bit processes.
 
 ## Lesson Content
 
-You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Lesson%201%20-%20Introduction.pptx) for this lesson.
+You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%2007/Lesson%207%20-%20Windows%20Internals%20II.pptx) for this lesson.
 
 ## For Next Lesson
 
-For the next lesson, read [Brian Carrier's paper](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Carrier%20-%20Open%20Source%20Forensics.pdf) and be prepared to discuss.
+For the next lesson, practice writing some more Windows programs!
 
 
 ## Additional Resources
 
-- [Daubert v. Merrell Dow Pharmaceuticals Inc., 509 U.S. 579 (1993)](https://supreme.justia.com/cases/federal/us/509/579/)
-- [Frye Standard](https://www.law.cornell.edu/wex/Frye_standard)
-- [Daubert Standard](https://www.law.cornell.edu/wex/daubert_standard#:~:text=The%20Daubert%20standard%20is%20the,to%20the%20facts%20at%20issue.)
+- [Windows Systems Programming](https://github.com/zodiacon/Win10SysProgBookSamples)
 
 Students are encouraged to explore these resources for further learning.
