@@ -1,4 +1,4 @@
-# Lesson 1 - Introduction to Digital Forensics
+# Lesson 8 - Windows Internals III
 
 
 ## Table of Contents
@@ -11,15 +11,11 @@
 
 ## Lesson Overview
 
-In this lesson, students will review course admin, course logistics, and discuss basic forensics concepts.
+In this lesson, students will explore the details of the PE32 file structure.
 
 ## Learning Objectives
 
-- Define digital forensics.
-- Discuss the role of digital forensics in expert witness testimony.
-- Explain the Daubert Standard.
-- Explain Locard Exchange Principle.
-- Discuss the observer effect.
+- PE32 File Structure
 
 ## Prerequisites
 
@@ -27,31 +23,30 @@ In this lesson, students will review course admin, course logistics, and discuss
 
 ## Lesson Topics
 
-1. Course Administration and Logistics
-   - Course learning objectives.
-   - Instructor and student introductions.
+1. PE32 Internals
+   - MS/DOS Header
+   - Optional Header
+   - Data Directories
+   - Section Headers
+   - PE Image File Loading
 
-2. Foundational Forensics Concepts
-   - Digital Forensics Defined
-   - Expert Witness Testimony
-   - The Daubert Standard
-   - The Daubert Factors
-   - Locard Exchange Principle
-   - The Observer Effect
+2. Extracting Information from a PE32
+   - CFF Explorer
+   - Python `pefile`
 
 ## Lesson Content
 
-You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Lesson%201%20-%20Introduction.pptx) for this lesson.
+You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%2008/Lesson%208%20-%20Windows%20Internals%20III.pptx) for this lesson.
 
 ## For Next Lesson
 
-For the next lesson, read [Brian Carrier's paper](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Carrier%20-%20Open%20Source%20Forensics.pdf) and be prepared to discuss.
+For the next lesson, read Chapters 1-3 from *Practical Malware Analysis*
 
 
 ## Additional Resources
 
-- [Daubert v. Merrell Dow Pharmaceuticals Inc., 509 U.S. 579 (1993)](https://supreme.justia.com/cases/federal/us/509/579/)
-- [Frye Standard](https://www.law.cornell.edu/wex/Frye_standard)
-- [Daubert Standard](https://www.law.cornell.edu/wex/daubert_standard#:~:text=The%20Daubert%20standard%20is%20the,to%20the%20facts%20at%20issue.)
+- [PE32 Format](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
+- [pefile](https://github.com/erocarrera/pefile)
+- [PE File Posters](http://blog.dkbza.org/2012/08/pe-file-format-graphs.html)
 
 Students are encouraged to explore these resources for further learning.
