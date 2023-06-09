@@ -1,4 +1,4 @@
-# Lesson 8 - Windows Internals III
+# Lesson 9 - Malware Triage
 
 
 ## Table of Contents
@@ -11,11 +11,13 @@
 
 ## Lesson Overview
 
-In this lesson, students will explore the details of the PE32 file structure.
+In this lesson, students will learn the basics of malware analysis and conduct malware triage.
 
 ## Learning Objectives
 
-- PE32 File Structure
+- Perform rapid malware triage
+- Utilize simple static and dynamic techniques to analyze PE32 files
+- Develop simple tools using `pefile` to automate feature extraction
 
 ## Prerequisites
 
@@ -23,16 +25,25 @@ In this lesson, students will explore the details of the PE32 file structure.
 
 ## Lesson Topics
 
-1. PE32 Internals
-   - MS/DOS Header
-   - Optional Header
-   - Data Directories
-   - Section Headers
-   - PE Image File Loading
+1. Basics of Malware Analysis
+   - Define goals of malware analysis
+   - Tracking Malware campaigns and evolution
+   - Types of malware analysis
+     - Static
+     - Dynamic
+   - Levels of malware analysis
+     - Triage Analysis
+     - In-Depth Analysis
 
-2. Extracting Information from a PE32
-   - CFF Explorer
-   - Python `pefile`
+2. Sample Malware Analysis Process
+   - This varies wrt desired analysis objectives
+
+3. Malware OSINT
+   - Using public reporting to link IOCs
+
+4. Malware Behavior Catalog
+
+5. CAPA
 
 ## Lesson Content
 
@@ -40,13 +51,12 @@ You can find the lesson content in the [slides](https://github.com/usma-eecs/cs4
 
 ## For Next Lesson
 
-For the next lesson, read Chapters 1-3 from *Practical Malware Analysis*
+For the next lesson, read Chapters 4-6 from *Practical Malware Analysis*
 
 
 ## Additional Resources
 
-- [PE32 Format](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
-- [pefile](https://github.com/erocarrera/pefile)
-- [PE File Posters](http://blog.dkbza.org/2012/08/pe-file-format-graphs.html)
+- [Malware Behavior Catalog](https://github.com/MBCProject)
+- [capa](https://github.com/mandiant/capa)
 
 Students are encouraged to explore these resources for further learning.
