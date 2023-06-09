@@ -1,4 +1,4 @@
-# Lesson 1 - Introduction to Digital Forensics
+# Lesson 6 - Windows Internals I
 
 
 ## Table of Contents
@@ -11,47 +11,64 @@
 
 ## Lesson Overview
 
-In this lesson, students will review course admin, course logistics, and discuss basic forensics concepts.
+In this lesson, students will learn about the Windows Operating System and Windows internals concepts necessary for future studies in Windows malware.
 
 ## Learning Objectives
 
-- Define digital forensics.
-- Discuss the role of digital forensics in expert witness testimony.
-- Explain the Daubert Standard.
-- Explain Locard Exchange Principle.
-- Discuss the observer effect.
+- Describe the overall architecture of the Windows operating system.
+- Describe a process and the process address space.
+- Discuss various Windows data structures and program control flow.
 
 ## Prerequisites
 
-- None
+- Access to Flare VM.
 
 ## Lesson Topics
 
-1. Course Administration and Logistics
-   - Course learning objectives.
-   - Instructor and student introductions.
+1. Windows Architecture Overview
+   - Win32 API
+   - Architecture
+   - EXEs and DLLs
+   - Processes
 
-2. Foundational Forensics Concepts
-   - Digital Forensics Defined
-   - Expert Witness Testimony
-   - The Daubert Standard
-   - The Daubert Factors
-   - Locard Exchange Principle
-   - The Observer Effect
+2. Virtual Memory
+   - Process memory and the process address space
+   - Kernel space
+
+3. Virtual Memory
+   - Process memory and the process address space
+   - Kernel space
+
+4. Threads
+   - Thread states
+
+5. Handles and Objects
+   - Handles
+   - Kernel objects (resources)
+   - Inheritable handles
+
+6. System Calls
+   - System call overview
+   - Control flow
+   - `ntdll.dll`
+   - System call dispatching
+   - WOW (Windows on Windows)
+
+7. Strings
+   - ANSI vs. Unicode in the Win32 API
 
 ## Lesson Content
 
-You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Lesson%201%20-%20Introduction.pptx) for this lesson.
+You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%2006/Lesson%206%20-%20Windows%20Internals%20I.pptx) for this lesson.
 
 ## For Next Lesson
 
-For the next lesson, read [Brian Carrier's paper](https://github.com/usma-eecs/cs483/blob/main/Lesson%201/Carrier%20-%20Open%20Source%20Forensics.pdf) and be prepared to discuss.
+For the next lesson, become comfortable with Process Hacker and be prepared to dig deeper into Windows.
 
 
 ## Additional Resources
 
-- [Daubert v. Merrell Dow Pharmaceuticals Inc., 509 U.S. 579 (1993)](https://supreme.justia.com/cases/federal/us/509/579/)
-- [Frye Standard](https://www.law.cornell.edu/wex/Frye_standard)
-- [Daubert Standard](https://www.law.cornell.edu/wex/daubert_standard#:~:text=The%20Daubert%20standard%20is%20the,to%20the%20facts%20at%20issue.)
+- [Process Hacker Video](https://youtu.be/vtIe3uuABKU)
+- [Windows Exploratory Surgery with Process Hacker](https://github.com/usma-eecs/cs483/blob/main/Lesson%2006/process_hacker.pdf)
 
 Students are encouraged to explore these resources for further learning.
