@@ -1,4 +1,4 @@
-# Lesson 9 - Malware Triage
+# Lesson 10 - Static Analysis
 
 
 ## Table of Contents
@@ -11,47 +11,38 @@
 
 ## Lesson Overview
 
-In this lesson, students will learn the basics of malware analysis and conduct malware triage.
+In this lesson, students will use IDA and Ghidra to conduct static malware analysis.
 
 ## Learning Objectives
 
-- Perform rapid malware triage
-- Utilize simple static and dynamic techniques to analyze PE32 files
-- Develop simple tools using `pefile` to automate feature extraction
+- Conduct reverse engineering
+- Understand the benefits and limitations of static analysis
 
 ## Prerequisites
 
-- None
+- Chapters 4-6 from *Practical Malware Analysis*
 
 ## Lesson Topics
 
-1. Basics of Malware Analysis
-   - Define goals of malware analysis
-   - Tracking Malware campaigns and evolution
-   - Types of malware analysis
-     - Static
-     - Dynamic
-   - Levels of malware analysis
-     - Triage Analysis
-     - In-Depth Analysis
+1. Why static analysis
 
-2. Sample Malware Analysis Process
-   - This varies wrt desired analysis objectives
+3. Basics of dissassembly and decompilation
 
-3. Malware OSINT
-   - Using public reporting to link IOCs
+5. Program control flow
 
-4. Malware Behavior Catalog
+7. Conditional constructs
 
-5. CAPA
+9. Loop structures
+
+7. Data structures
 
 ## Lesson Content
 
-You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%2008/Lesson%208%20-%20Windows%20Internals%20III.pptx) for this lesson.
+You can find the lesson content in the [slides](https://github.com/usma-eecs/cs483/blob/main/Lesson%2010/Lesson%2010%20-%20Static%20Malware%20Analysis.pdf) for this lesson.
 
 ## For Next Lesson
 
-For the next lesson, read Chapters 4-6 from *Practical Malware Analysis*
+For the next lesson, read Chapter 7 from *Practical Malware Analysis*
 
 
 ## Additional Resources
